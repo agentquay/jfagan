@@ -66,3 +66,54 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 11, ../sass/screen.scss */
+.container {
+  margin: auto;
+}
+
+/* line 15, ../sass/screen.scss */
+.head {
+  background: url(../img/cliffs.jpg) no-repeat;
+  height: 550px;
+  text-align: center;
+}
+
+/* line 23, ../sass/screen.scss */
+.logo img {
+  width: 275px;
+}
+
+/* line 29, ../sass/screen.scss */
+.menu li {
+  display: inline-block;
+}
+
+/* line 36, ../sass/screen.scss */
+.contain {
+  margin: auto;
+  max-width: 1080px;
+  width: 77.777778%;
+}
+/* line 41, ../sass/screen.scss */
+.contain article {
+  margin: 20px auto 80px;
+  width: 90%;
+}
+/* line 45, ../sass/screen.scss */
+.contain article h1 {
+  text-align: center;
+}
+/* line 49, ../sass/screen.scss */
+.contain article h2 {
+  text-align: center;
+}
+/* line 53, ../sass/screen.scss */
+.contain article p {
+  margin: 20px 0;
+}
+
+/* line 61, ../sass/screen.scss */
+.intro {
+  text-align: center;
+}
