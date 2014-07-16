@@ -7,6 +7,7 @@
 
 
 body{
+	color: #222;
 	font-family: 'Crimson Text', serif;
 }
 
@@ -53,11 +54,14 @@ body{
 		width: 90%;
 
 		h1{
+			font-size: 35px;
 			text-align: center;
+
 		}
 
 		h2{
 			color: #226d38;
+			font-size: 45px;
 			text-align: center;
 		}
 
@@ -76,4 +80,18 @@ body{
 
 .intro{
 	text-align: center;
+
+	p{
+		color: #999;
+		font-size: 21px;
+		line-height: 1.5;
+	}
+}
+
+.bio{
+
+	p {
+    font-size: 1.1em;
+    line-height: 1.3;
+}
 }
