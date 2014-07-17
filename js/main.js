@@ -48,7 +48,7 @@ function changeImg() {
 
     	'background': 'url(' +  preloadArr[currImg++ % preloadArr.length].src + ')' 
 
-    }).fadeIn("slow");
+    });
 }
 
 
