@@ -30,7 +30,7 @@ for (i = 0; i < imgArr.length; i++) {
 }
 
 var currImg = 1;
-var intID = setInterval(changeImg, 1000);
+var intID = setInterval(changeImg, 10000);
 
 //function changeImg() {
   //  $('.head').css({ 'background': 'url(' +  preloadArr[currImg++ % preloadArr.length].src + ')' });
