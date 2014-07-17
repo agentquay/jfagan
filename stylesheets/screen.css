@@ -92,7 +92,7 @@ body {
 .contain {
   margin: auto;
   max-width: 1080px;
-  width: 77.777778%;
+  /* width: 77.777778%;*/
 }
 .contain article {
   margin: 20px auto 80px;
@@ -101,6 +101,11 @@ body {
 .contain article h1 {
   font-size: 35px;
   text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .contain article h1 {
+    font-size: 20px;
+  }
 }
 .contain article h2 {
   color: #226d38;
@@ -114,6 +119,11 @@ body {
 .diff_color {
   color: #226d38;
 }
+@media screen and (max-width: 640px) {
+  .diff_color {
+    display: block;
+  }
+}
 
 .intro {
   text-align: center;
@@ -122,6 +132,11 @@ body {
   color: #999;
   font-size: 21px;
   line-height: 1.5;
+}
+@media screen and (max-width: 640px) {
+  .intro p {
+    font-size: 16px;
+  }
 }
 
 .bio p {
