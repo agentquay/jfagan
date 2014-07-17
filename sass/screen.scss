@@ -29,19 +29,35 @@ body{
 }
 .menu{
 
-	margin: 20px 0;
+	padding: 20px 0;
+	transition: all 0.3s ease 0s;
 
 	li{
 		display: inline-block;
-		margin: 0 20px;
+		
 	}
 
 	a{
 		color: #fff;
-		text-decoration: none;
+	    display: inline-block;
+	    font-size: 1.2em;
+	    padding: 0 20px;
+	    text-decoration: none;
 	}
 
 
+}
+
+.fixed {
+	background: #fff;
+    box-shadow: 0 0 5px #999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    a{
+    	color: #999;
+    }
 }
 
 .contain{
