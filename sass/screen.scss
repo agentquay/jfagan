@@ -19,6 +19,20 @@ body{
 	background: url(../img/cliffs.jpg) no-repeat;
 	height: 550px;
 	text-align: center;
+	transition: all 0.3s ease 0s;
+}
+
+.tree{
+	background: url(../img/trees.jpg) no-repeat;
+
+}
+.cliffs{
+	background: url(../img/cliffs.jpg) no-repeat;
+
+}
+.clovers{
+	background: url(../img/clovers.jpg) no-repeat;
+
 }
 
 .logo{
