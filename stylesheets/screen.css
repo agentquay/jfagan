@@ -58,6 +58,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #222;
   font-family: 'Crimson Text', serif;
@@ -100,6 +104,14 @@ body {
   transition: all 0.3s ease 0s;
   width: 100%;
 }
+@media screen and (max-width: 640px) {
+  .menu {
+    background: #fff;
+  }
+  .menu a {
+    color: #999;
+  }
+}
 .menu li {
   display: inline-block;
 }
@@ -112,6 +124,11 @@ body {
 }
 .menu a:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 640px) {
+  .menu a {
+    color: #999;
+  }
 }
 
 .fixed {
@@ -129,28 +146,29 @@ body {
   max-width: 1080px;
   /* width: 77.777778%;*/
 }
-.contain article {
+
+article {
   margin: 20px auto 80px;
   width: 90%;
 }
-.contain article h1 {
+article h1 {
   font-size: 35px;
   text-align: center;
 }
 @media screen and (max-width: 640px) {
-  .contain article h1 {
+  article h1 {
     font-size: 20px;
   }
 }
-.contain article h2 {
+article h2 {
   color: #226d38;
   font-size: 45px;
   text-align: center;
 }
-.contain article h2 + img {
+article h2 + img {
   text-align: center;
 }
-.contain article p {
+article p {
   margin: 20px 0;
 }
 
@@ -189,5 +207,29 @@ body {
 }
 .hpattern img {
   margin: 20px auto;
+  max-width: 100%;
+}
+
+.network li {
+  float: left;
+  min-height: 350px;
+  width: 33.3333%;
+}
+@media screen and (max-width: 640px) {
+  .network li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .network li {
+    width: 100%;
+  }
+}
+
+.n_logo, .n_copy {
+  margin: auto;
+  width: 90%;
+}
+.n_logo img, .n_copy img {
   max-width: 100%;
 }
