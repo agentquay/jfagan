@@ -68,10 +68,15 @@ body {
 }
 
 .head {
-  background: url(../img/cliffs.jpg) no-repeat;
+  background: url(../img/trees.jpg) no-repeat;
   height: 550px;
   text-align: center;
   transition: all 0.3s ease 0s;
+}
+@media screen and (max-width: 640px) {
+  .head {
+    height: auto;
+  }
 }
 
 .tree {
@@ -103,6 +108,9 @@ body {
   font-size: 1.2em;
   padding: 0 20px;
   text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: underline;
 }
 
 .fixed {

@@ -14,7 +14,11 @@ $(window).bind('scroll', function () {
 });
 
 
+$('.head').css({ 
 
+    	'background': 'url("https://raw.githubusercontent.com/agentquay/jfagan/master/img/trees.jpg") no-repeat center center' 
+
+    });
 
 //background image rotator
 var imgArr = new Array('https://raw.githubusercontent.com/agentquay/jfagan/master/img/trees.jpg', 'https://raw.githubusercontent.com/agentquay/jfagan/master/img/cliffs.jpg', 'https://raw.githubusercontent.com/agentquay/jfagan/master/img/clovers.jpg');
@@ -30,7 +34,7 @@ for (i = 0; i < imgArr.length; i++) {
 }
 
 var currImg = 1;
-var intID = setInterval(changeImg, 10000);
+var intID = setInterval(changeImg, 5000);
 
 //function changeImg() {
   //  $('.head').css({ 'background': 'url(' +  preloadArr[currImg++ % preloadArr.length].src + ')' });
@@ -46,7 +50,7 @@ var intID = setInterval(changeImg, 10000);
 function changeImg() {
     $('.head').css({ 
 
-    	'background': 'url(' +  preloadArr[currImg++ % preloadArr.length].src + ')' 
+    	'background': 'url(' +  preloadArr[currImg++ % preloadArr.length].src + ') no-repeat center center' 
 
     });
 }
