@@ -178,6 +178,7 @@ article p {
 @media screen and (max-width: 640px) {
   .diff_color {
     display: block;
+    margin: 8px auto;
   }
 }
 
@@ -210,9 +211,16 @@ article p {
   max-width: 100%;
 }
 
+.n_contain {
+  background: url("http://subtlepatterns.com/patterns/tiny_grid.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  overflow: auto;
+  padding: 50px 0;
+}
+
 .network li {
   float: left;
   min-height: 350px;
+  text-align: center;
   width: 33.3333%;
 }
 @media screen and (max-width: 640px) {
