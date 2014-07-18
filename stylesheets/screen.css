@@ -58,7 +58,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-* {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -232,4 +232,12 @@ article p {
 }
 .n_logo img, .n_copy img {
   max-width: 100%;
+}
+
+.n_copy h3 {
+  color: #226d38;
+  margin: 10px 0;
+}
+.n_copy p {
+  line-height: 1.35;
 }
