@@ -98,6 +98,7 @@ body {
 .menu {
   padding: 20px 0;
   transition: all 0.3s ease 0s;
+  width: 100%;
 }
 .menu li {
   display: inline-block;
@@ -118,7 +119,6 @@ body {
   box-shadow: 0 0 5px #999;
   position: fixed;
   top: 0;
-  width: 100%;
 }
 .fixed a {
   color: #999;
