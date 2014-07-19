@@ -23,7 +23,7 @@ body{
 	transition: all 0.3s ease 0s;
 
 	@media screen and (max-width: 640px){
-		background: none;
+		background: none !important;
 		height:auto;
 	}
 }
@@ -188,6 +188,9 @@ article{
 }
 
 .network {
+	margin: auto;
+	max-width: 1080px;
+	width: 90%;
 
 	li {
 	    float: left;
@@ -206,12 +209,23 @@ article{
 	}
 }
 
+.c_n {
+    background: #fff;
+    box-shadow: 0 0 2px #ccc;
+    margin: auto;
+    padding: 2% 0 10%;
+    width: 90%;
+}
+
 .n_logo {
     margin: auto;
     width: 90%;
 
+
     img{
-    	max-width: 100%;
+    	border-bottom: 1px solid #eee;
+	    margin: 0 0 10px;
+	    max-width: 100%;
     }
 }
 
@@ -228,3 +242,6 @@ article{
 	    line-height: 1.35;
 	}
 }
+
+
+

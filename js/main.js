@@ -16,7 +16,7 @@ $(window).bind('scroll', function () {
 
 $('.head').css({ 
 
-    	'background': 'url("https://raw.githubusercontent.com/agentquay/jfagan/master/img/trees.jpg") no-repeat center center' 
+    	'background': 'url(https://raw.githubusercontent.com/agentquay/jfagan/master/img/trees.jpg") no-repeat center center' 
 
     });
 
