@@ -267,3 +267,13 @@ article p {
 .n_copy p {
   line-height: 1.35;
 }
+
+.contact {
+  padding: 0px 0 200px;
+}
+
+.contact_box {
+  margin: auto;
+  max-width: 400px;
+  width: 90%;
+}
