@@ -164,6 +164,7 @@ article h1 {
 article h2 {
   color: #226d38;
   font-size: 45px;
+  padding: 75px 0 0;
   text-align: center;
 }
 article h2 + img {
