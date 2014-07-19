@@ -249,11 +249,26 @@ article{
     padding: 0px 0 200px;
 }
 
-.contact_box{
-	margin: auto;
-	max-width: 400px;
-	width: 90%;
+.contact_box {
+    margin: 0 auto 50px;
+    max-width: 400px;
+    padding: 0 5% 5%;
+    width: 90%;
+}
+.copyright {
+    background: #333;
+    color: #ccc;
+    padding: 20px 0 ;
+    text-align: center;
 
+	a {
+    color: #ccc;
+
+    	&:hover{
+    		color: #226d38;
+    		text-decoration: none;
+    	}
+	}
 }
 
 
