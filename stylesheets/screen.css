@@ -199,6 +199,9 @@ article p {
   }
 }
 
+.bio {
+  max-width: 760px;
+}
 .bio p {
   font-size: 1.1em;
   line-height: 1.3;
