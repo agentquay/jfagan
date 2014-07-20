@@ -85,6 +85,72 @@ body {
   }
 }
 
+.down {
+  display: none;
+}
+.down a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200%;
+}
+@media screen and (min-width: 641px) {
+  .down {
+    display: block;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    padding: 15%;
+    position: relative;
+    -webkit-animation: float 1s linear infinite;
+    -moz-animation: float 1s linear infinite;
+    animation: float 1s linear infinite;
+  }
+}
+
+@-moz-keyframes float {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -10px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes float {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -10px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@-moz-keyframes float {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -10px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
 .tree {
   background: url(../img/trees.jpg) no-repeat;
 }
@@ -187,6 +253,11 @@ article p {
 
 .intro {
   text-align: center;
+}
+@media screen and (min-width: 641px) {
+  .intro {
+    padding: 100px 0 0;
+  }
 }
 .intro p {
   color: #999;
@@ -311,8 +382,11 @@ article p {
 
 .goup {
   bottom: 50%;
+  color: #226d38;
+  font-size: 200%;
   position: fixed;
   right: 20px;
+  text-decoration: none;
 }
 .goup img {
   opacity: .3;
