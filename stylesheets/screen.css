@@ -245,7 +245,7 @@ article p {
 .c_n {
   background: #fff;
   box-shadow: 0 0 2px #ccc;
-  height: 335px;
+  min-height: 335px;
   margin: auto;
   padding: 2% 0 10%;
   width: 85%;
