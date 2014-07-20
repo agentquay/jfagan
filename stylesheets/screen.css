@@ -388,11 +388,11 @@ article p {
   right: 20px;
   text-decoration: none;
 }
-.goup img {
+.goup p {
   opacity: .3;
   transition: all 0.3s ease 0s;
 }
-.goup img:hover {
+.goup p:hover {
   opacity: 1;
 }
 @media only screen and (max-width: 640px) {
