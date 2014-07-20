@@ -227,6 +227,7 @@ article p {
 }
 .network li {
   float: left;
+  margin: 0 0 10px;
   min-height: 350px;
   text-align: center;
   width: 33.3333%;
