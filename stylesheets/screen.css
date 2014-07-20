@@ -245,9 +245,10 @@ article p {
 .c_n {
   background: #fff;
   box-shadow: 0 0 2px #ccc;
+  height: 335px;
   margin: auto;
   padding: 2% 0 10%;
-  width: 90%;
+  width: 85%;
 }
 
 .n_logo, .n_copy {
@@ -302,4 +303,22 @@ article p {
 .copyright a:hover {
   color: #226d38;
   text-decoration: none;
+}
+
+.goup {
+  bottom: 50%;
+  position: fixed;
+  right: 20px;
+}
+.goup img {
+  opacity: .3;
+  transition: all 0.3s ease 0s;
+}
+.goup img:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 640px) {
+  .goup {
+    display: none;
+  }
 }

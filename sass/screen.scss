@@ -214,9 +214,10 @@ article{
 .c_n {
     background: #fff;
     box-shadow: 0 0 2px #ccc;
+    height: 335px;
     margin: auto;
     padding: 2% 0 10%;
-    width: 90%;
+    width: 85%;
 }
 
 .n_logo {
@@ -288,4 +289,25 @@ article{
 	}
 }
 
+.goup {
+    bottom: 50%;
+    position: fixed;
+    right: 20px;
+    
+	
+	img{
+		opacity: .3;
+		transition: all 0.3s ease 0s;
+
+		&:hover{
+			opacity: 1;
+		}
+	}
+
+    @media only screen and (max-width: 640px) {
+
+    	display: none;
+ 
+	}
+}
 
