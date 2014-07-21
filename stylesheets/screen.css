@@ -387,10 +387,16 @@ article p {
   position: fixed;
   right: 20px;
   text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.goup:hover {
+  -webkit-animation: up_float 1s linear infinite;
+  -moz-animation: up_float 1s linear infinite;
+  animation: up_float 1s linear infinite;
 }
 .goup p {
   opacity: .3;
-  transition: all 0.3s ease 0s;
+  transition: inherit;
 }
 .goup p:hover {
   opacity: 1;
@@ -398,5 +404,47 @@ article p {
 @media only screen and (max-width: 640px) {
   .goup {
     display: none;
+  }
+}
+
+@-moz-keyframes up_float {
+  0% {
+    bottom: 50%;
+  }
+
+  50% {
+    bottom: 52%;
+  }
+
+  100% {
+    bottom: 50%;
+  }
+}
+
+@-webkit-keyframes up_float {
+  0% {
+    bottom: 50%;
+  }
+
+  50% {
+    bottom: 52%;
+  }
+
+  100% {
+    bottom: 50%;
+  }
+}
+
+@-moz-keyframes up_float {
+  0% {
+    bottom: 50%;
+  }
+
+  50% {
+    bottom: 52%;
+  }
+
+  100% {
+    bottom: 50%;
   }
 }
