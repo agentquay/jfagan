@@ -306,12 +306,12 @@ article p {
   text-align: center;
   width: 33.3333%;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 960px) {
   .network li {
     width: 50%;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 640px) {
   .network li {
     width: 100%;
   }
@@ -387,6 +387,7 @@ article p {
   position: fixed;
   right: 20px;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .goup:hover {
@@ -396,6 +397,7 @@ article p {
 }
 .goup p {
   opacity: .3;
+  -webkit-transition: inherit;
   transition: inherit;
 }
 .goup p:hover {

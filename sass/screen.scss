@@ -258,11 +258,11 @@ article{
 	    text-align: center;
 	    width: 33.3333%;
 
-	    @media screen and (max-width: 640px){
+	    @media screen and (max-width: 960px){
 			width: 50%;
 		}
 
-		@media screen and (max-width: 420px){
+		@media screen and (max-width: 640px){
 			width: 100%;
 		}
 
@@ -354,7 +354,9 @@ article{
     position: fixed;
     right: 20px;
     text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+
     
 	&:hover{
 			-webkit-animation: up_float 1s linear infinite;
@@ -366,6 +368,7 @@ article{
 
 	p{
 		opacity: .3;
+		-webkit-transition: inherit;
 		transition: inherit;
 
 		&:hover{
