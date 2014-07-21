@@ -260,6 +260,15 @@ article{
 
 	    @media screen and (max-width: 960px){
 			width: 50%;
+
+		}
+
+		@media screen and (min-width: 641px) and (max-width: 960px){
+
+			&:last-child {
+			    left: 25%;
+			    position: relative;
+			}
 		}
 
 		@media screen and (max-width: 640px){
