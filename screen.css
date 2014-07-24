@@ -308,18 +308,7 @@ article p {
   margin: 0 0 10px;
   min-height: 350px;
   text-align: center;
-  width: 33.3333%;
-}
-@media screen and (max-width: 960px) {
-  .network li {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 641px) and (max-width: 960px) {
-  .network li:last-child {
-    left: 25%;
-    position: relative;
-  }
+  width: 50%;
 }
 @media screen and (max-width: 640px) {
   .network li {
@@ -327,8 +316,14 @@ article p {
   }
 }
 
+.n_w_contain {
+  margin: auto;
+  max-width: 1080px;
+}
+
 .c_n {
   background: #fff;
+  border-radius: 10px;
   box-shadow: 0 0 2px #ccc;
   min-height: 335px;
   margin: auto;

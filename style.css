@@ -76,7 +76,7 @@ body {
 }
 
 .head {
-  background: url(../img/trees.jpg) no-repeat;
+  background: url(img/trees.jpg) no-repeat;
   height: 550px;
   text-align: center;
   transition: all 0.3s ease 0s;
@@ -293,7 +293,7 @@ article p {
 }
 
 .n_contain {
-  background: url("../img/grid.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("img/grid.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
   overflow: auto;
   padding: 50px 0;
 }
@@ -308,18 +308,7 @@ article p {
   margin: 0 0 10px;
   min-height: 350px;
   text-align: center;
-  width: 33.3333%;
-}
-@media screen and (max-width: 960px) {
-  .network li {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 641px) and (max-width: 960px) {
-  .network li:last-child {
-    left: 25%;
-    position: relative;
-  }
+  width: 50%;
 }
 @media screen and (max-width: 640px) {
   .network li {
@@ -327,8 +316,14 @@ article p {
   }
 }
 
+.n_w_contain {
+  margin: auto;
+  max-width: 1080px;
+}
+
 .c_n {
   background: #fff;
+  border-radius: 10px;
   box-shadow: 0 0 2px #ccc;
   min-height: 335px;
   margin: auto;

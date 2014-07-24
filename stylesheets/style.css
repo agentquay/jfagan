@@ -1,10 +1,7 @@
-/*
-Theme Name: JJF
-Description: WordPress Theme for JJ Fagan & Co
-Author: Marquay Smith
-Author URI: http://www.marquaysmith.com
-
-*/
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -114,43 +111,43 @@ body {
 
 @-moz-keyframes float {
   0% {
-    bottom: 0px;
+    top: 0;
   }
 
   50% {
-    bottom: 10px;
+    top: -10px;
   }
 
   100% {
-    bottom: 0px;
+    top: 0;
   }
 }
 
 @-webkit-keyframes float {
   0% {
-    bottom: 0px;
+    top: 0;
   }
 
   50% {
-    bottom: 10px;
+    top: -10px;
   }
 
   100% {
-    bottom: 0px;
+    top: 0;
   }
 }
 
 @-moz-keyframes float {
   0% {
-    bottom: 0px;
+    top: 0;
   }
 
   50% {
-    bottom: 10px;
+    top: -10px;
   }
 
   100% {
-    bottom: 0px;
+    top: 0;
   }
 }
 
@@ -458,89 +455,5 @@ article p {
 
   100% {
     bottom: 50%;
-  }
-}
-
-/*-- Print Styles --*/
-@media print {
-  * {
-    background: transparent !important;
-    color: black !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    filter: none !important;
-    -ms-filter: none !important;
-  }
-
-  a {
-    text-decoration: underline;
-  }
-
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  .ir a:after {
-    content: "";
-  }
-
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-
-  a[href^="#"]:after {
-    content: "";
-  }
-
-  pre {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  thead {
-    display: table-header-group;
-  }
-
-  tr {
-    page-break-inside: avoid;
-  }
-
-  img {
-    page-break-inside: avoid;
-    max-width: 100% !important;
-  }
-
-  @page {
-    margin: .5cm;
-}
-
-  p {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2 {
-    orphans: 3;
-    widows: 3;
-    page-break-after: avoid;
-  }
-
-  h3 {
-    orphans: 3;
-    widows: 3;
-    page-break-after: avoid;
   }
 }
